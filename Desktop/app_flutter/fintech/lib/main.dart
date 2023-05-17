@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'login.dart';
 import 'principalTela.dart';
+import 'transferencia.dart';
 
 void main() => runApp(MyApp());
 
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => LoginScreen(),
         '/main': (context) => MainScreen(),
+        '/transferencia': (context) => TransferScreen(),
       },
     );
   }
