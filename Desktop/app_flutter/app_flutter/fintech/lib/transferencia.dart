@@ -28,14 +28,14 @@ class TransferScreen extends StatelessWidget {
               onPressed: () {
                 Navigator.pushReplacementNamed(context, '/main');
               },
-              child: Text('Voltar para menu inicial'),
+              child: Text('Voltar para menu principal'),
             ),
             SizedBox(height: 16), // Espaçamento entre os botões
             ElevatedButton(
               onPressed: () {
                 Navigator.pushReplacementNamed(context, '/transferencia');
               },
-              child: Text('Transferência'),
+              child: Text('Transferir'),
             ),
           ],
         ),

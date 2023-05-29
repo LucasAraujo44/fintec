@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'login.dart';
 import 'principalTela.dart';
 import 'transferencia.dart';
+import 'cotacao.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Two Screens App',
+      title: 'Fintech',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => LoginScreen(),
         '/main': (context) => MainScreen(),
         '/transferencia': (context) => TransferScreen(),
+        '/cotacao': (context) => MyHomePage()
       },
     );
   }

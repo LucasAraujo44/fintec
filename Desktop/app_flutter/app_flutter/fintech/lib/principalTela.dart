@@ -22,12 +22,12 @@ class MainScreen extends StatelessWidget {
               onPressed: () {
                 Navigator.pushReplacementNamed(context, '/transferencia');
               },
-              child: Text('Transferencia'),
+              child: Text('Transferência'),
             ),
             SizedBox(height: 16),
             ElevatedButton(
               onPressed: () {
-                Navigator.pushReplacementNamed(context, '/transferencia');
+                Navigator.pushReplacementNamed(context, '/cotacao');
               },
               child: Text('Cotação'),
             ),
